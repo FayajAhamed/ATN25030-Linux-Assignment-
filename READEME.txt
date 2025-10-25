@@ -1,0 +1,42 @@
+Welcome to my Assignment  
+
+Name:		Fayaj 
+StudentID:	ATN25030
+
+Script No 1 - network_analyzer.sh 
+Script No 2 - process_monitor.sh 
+
+Brief Descriptions......
+
+1. Network_analyzer
+
+The Network Analyzer script is a simple Bash utility that helps monitor your system’s active network connections in real-time.
+
+It uses the netstat command to detect all ESTABLISHED TCP/UDP connections, extracts their remote IP addresses, and displays how many active connections
+each IP currently has.
+
+It provides a quick and readable summary of which remote hosts your system is communicating with the most making it useful for basic network monitoring,
+troubleshooting, or security observation.
+
+2. porcess_monitor
+
+The Tiger Process Monitor is a Bash script designed to display the top N processes consuming the most CPU on your system.
+
+It uses the Linux ps command to gather process data, sorts it by CPU usage, and displays a clean, readable summary all
+
+This tool is ideal for IT technicians, system administrators, or anyone learning Linux process management.
+
+
+
+to execute this command we have to change the permission 
+
+chmod +x ________.sh
+
+sample commands 
+ 
+./network_analyzer.sh OR bash network_analyzer.sh 
+./process_monitor.sh <number_of_process> OR bash process_monitor.sh   
+
+
+
+<<<<<<<<<<<<<Try my tools and enjoy!>>>>>>>>>>>>>
